@@ -1,0 +1,2 @@
+# GiphyApp
+Created with CodeSandbox
