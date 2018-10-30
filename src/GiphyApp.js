@@ -27,7 +27,7 @@ export default class GiphyApp extends React.Component {
   giphyApi = target => {
     //GiphyAPIを実行するための定義
     const searchKey = target;
-    const key = "";
+    const key = "IOv3YP3uQiAtC2spYVCArB4CC000M7Pg";
     const limit = 20;
     const url = `https://api.giphy.com/v1/gifs/search?q=${searchKey}&api_key=${key}&limit=${limit}`;
 
