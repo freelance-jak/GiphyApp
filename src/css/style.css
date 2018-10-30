@@ -1,3 +1,24 @@
 input[type="submit"] {
   margin-left: 10px;
+  border-radius: 1px;
+}
+
+input[type="text"] {
+  border-radius: 1px;
+}
+
+.list {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.item {
+  width: 50%;
+}
+
+.image {
+  width: 100%;
 }

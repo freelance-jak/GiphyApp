@@ -47,12 +47,12 @@ export default class GiphyApp extends React.Component {
   renderImageList(list) {
     const imageList = list.map(url => {
       return (
-        <li>
-          <img src={url} />
+        <li className="item">
+          <img className="image" src={url} />
         </li>
       );
     });
 
-    return <ul>{imageList}</ul>;
+    return <ul className="list">{imageList}</ul>;
   }
 }

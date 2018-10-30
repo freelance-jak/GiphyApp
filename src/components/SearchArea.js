@@ -11,7 +11,11 @@ export default class SearchArea extends React.Component {
     return (
       <div>
         <form onSubmit={this.handleSubmit}>
-          <input value={this.state.searchText} onChange={this.handleChange} />
+          <input
+            type="text"
+            value={this.state.searchText}
+            onChange={this.handleChange}
+          />
           <input type="submit" value="GIFを検索" />
         </form>
       </div>
