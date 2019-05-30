@@ -12,7 +12,7 @@ export default class GiphyApp extends React.Component {
     return (
       <div>
         <h2>GiphyApp</h2>
-        <p>入力された文字でGIF画像を検索します</p>
+        <p>入力した文字でGIF画像を検索します</p>
         <SearchArea searchGif={this.giphyApi} />
         {this.renderImageList(this.state.gifUrlList)}
       </div>
